@@ -1,0 +1,20 @@
+{
+  "prefix": "sheikah",
+  "name": "Sheikah icons",
+  "total": 40,
+  "version": "0.0.10",
+  "author": {
+    "name": "__TODO__",
+    "url": "__TODO__"
+  },
+  "license": {
+    "title": "MIT",
+    "spdx": "MIT",
+    "url": "__TODO__"
+  },
+  "samples": ["0", "1", "2"],
+  "height": 32,
+  "displayHeight": 16,
+  "category": "Fonts",
+  "palette": false
+}

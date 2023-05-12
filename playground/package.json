@@ -1,0 +1,14 @@
+{
+  "name": "playground",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "build": "vite build",
+    "dev": "vite"
+  },
+  "devDependencies": {
+    "icon-collection-sheikah": "workspace:*",
+    "unocss": "^0.51.12",
+    "vite": "^4.3.5"
+  }
+}
