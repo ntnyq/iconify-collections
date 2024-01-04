@@ -2,7 +2,7 @@
   "name": "iconify-collections",
   "type": "module",
   "private": true,
-  "packageManager": "pnpm@8.13.1",
+  "packageManager": "pnpm@8.14.0",
   "license": "MIT",
   "scripts": {
     "build": "run-s generate lint:fix",
@@ -20,7 +20,7 @@
   "devDependencies": {
     "@changesets/changelog-github": "^0.5.0",
     "@changesets/cli": "^2.27.1",
-    "@iconify/tools": "^3.0.7",
+    "@iconify/tools": "^4.0.0",
     "@ntnyq/eslint-config": "^1.20.0",
     "@ntnyq/prettier-config": "^1.20.0",
     "@types/node": "^20.10.6",
@@ -32,7 +32,7 @@
     "prettier": "^3.1.1",
     "tsx": "^4.7.0",
     "typescript": "^5.3.3",
-    "unocss": "^0.58.2",
+    "unocss": "^0.58.3",
     "vite": "^5.0.10",
     "vitest": "^1.1.1"
   },
