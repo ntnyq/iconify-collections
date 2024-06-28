@@ -4,21 +4,21 @@
   "description": "Sheikah icon set in Iconify JSON format",
   "iconSetVersion": "0.0.10",
   "license": "MIT",
-  "homepage": "",
+  "homepage": "https://github.com/ntnyq/iconify-collections",
   "exports": {
     ".": {
       "types": "./index.d.ts",
       "import": "./index.mjs",
-      "require": "./index.js"
+      "require": "./index.cjs"
     },
     "./icons.json": "./icons.json",
     "./info.json": "./info.json",
     "./*": "./*"
   },
-  "main": "./index.js",
+  "main": "./index.cjs",
   "module": "./index.mjs",
   "types": "./index.d.ts",
-  "bugs": "",
+  "bugs": "https://github.com/ntnyq/iconify-collections/issues",
   "iconSet": {
     "icons": "icons.json",
     "info": "info.json"

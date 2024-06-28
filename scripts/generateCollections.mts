@@ -24,7 +24,7 @@ async function generateIconCollection(prefix: string) {
       await cleanupSVG(svg)
       await parseColors(svg, {
         defaultColor: 'currentColor',
-        callback: (attr, colorStr, color) => {
+        callback: (_attr, colorStr, color) => {
           return !color || isEmptyColor(color) ? colorStr : 'currentColor'
         },
       })
@@ -47,6 +47,11 @@ async function generateIconCollection(prefix: string) {
   await fs.writeFile(`packages/${iconSet.prefix}/icons.json`, exported, 'utf8')
 }
 
-Promise.all([generateIconCollection('sheikah')]).catch(err => {
+try {
+  await Promise.all([
+    //
+    generateIconCollection('sheikah'),
+  ])
+} catch (err) {
   console.log(err)
-})
+}
