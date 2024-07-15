@@ -24,7 +24,7 @@
     "@ntnyq/eslint-config": "^2.6.0",
     "@ntnyq/prettier-config": "^1.21.2",
     "@types/node": "^20.14.10",
-    "@vitest/coverage-v8": "^1.6.0",
+    "@vitest/coverage-v8": "^2.0.2",
     "eslint": "^9.7.0",
     "husky": "^9.0.11",
     "nano-staged": "^0.8.0",
@@ -34,7 +34,7 @@
     "typescript": "^5.5.3",
     "unocss": "^0.61.3",
     "vite": "^5.3.3",
-    "vitest": "^1.6.0"
+    "vitest": "^2.0.2"
   },
   "prettier": "@ntnyq/prettier-config",
   "nano-staged": {
