@@ -5,7 +5,7 @@ export default defineConfig({
     presetUno(),
     presetIcons({
       collections: {
-        sheikah: () => import('icon-collection-sheikah/icons.json').then(i => i.default as any),
+        sheikah: () => import('icon-collection-sheikah/icons.json').then(i => i.default),
       },
     }),
   ],
