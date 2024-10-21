@@ -21,7 +21,7 @@
     "@changesets/changelog-github": "^0.5.0",
     "@changesets/cli": "^2.27.9",
     "@iconify/tools": "^4.0.7",
-    "@ntnyq/eslint-config": "^2.8.2",
+    "@ntnyq/eslint-config": "^3.1.0",
     "@ntnyq/prettier-config": "^1.21.3",
     "@types/node": "^22.7.7",
     "@vitest/coverage-v8": "^2.1.3",
