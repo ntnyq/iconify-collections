@@ -5,6 +5,7 @@
   "iconSetVersion": "0.0.10",
   "license": "MIT",
   "homepage": "https://github.com/ntnyq/iconify-collections",
+  "bugs": "https://github.com/ntnyq/iconify-collections/issues",
   "exports": {
     ".": {
       "types": "./index.d.ts",
@@ -18,7 +19,6 @@
   "main": "./index.cjs",
   "module": "./index.mjs",
   "types": "./index.d.ts",
-  "bugs": "https://github.com/ntnyq/iconify-collections/issues",
   "iconSet": {
     "icons": "icons.json",
     "info": "info.json"

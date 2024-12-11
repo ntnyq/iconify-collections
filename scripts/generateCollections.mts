@@ -1,8 +1,8 @@
 import { promises as fs } from 'node:fs'
-import { importDirectory } from '@iconify/tools/lib/import/directory'
-import { cleanupSVG } from '@iconify/tools/lib/svg/cleanup'
-import { runSVGO } from '@iconify/tools/lib/optimise/svgo'
 import { isEmptyColor, parseColors } from '@iconify/tools/lib/colors/parse'
+import { importDirectory } from '@iconify/tools/lib/import/directory'
+import { runSVGO } from '@iconify/tools/lib/optimise/svgo'
+import { cleanupSVG } from '@iconify/tools/lib/svg/cleanup'
 
 async function generateIconCollection(prefix: string) {
   // Import icons

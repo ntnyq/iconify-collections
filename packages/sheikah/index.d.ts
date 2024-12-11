@@ -1,6 +1,6 @@
 import type { IconifyChars, IconifyInfo, IconifyJSON, IconifyMetaData } from '@iconify/types'
 
-export { IconifyJSON, IconifyInfo, IconifyMetaData, IconifyChars }
+export { IconifyChars, IconifyInfo, IconifyJSON, IconifyMetaData }
 
 export declare const icons: IconifyJSON
 export declare const info: IconifyInfo

@@ -44,7 +44,7 @@ it('render', async () => {
     'period',
     'question',
   ].map(c => `i-sheikah-${c}`)
-  const generator = createGenerator({
+  const generator = await createGenerator({
     presets: [
       presetIcons({
         collections: {
