@@ -4,6 +4,7 @@
   "editor.formatOnSave": true,
   "eslint.validate": [
     "vue",
+    "xml",
     "yaml",
     "html",
     "json",
