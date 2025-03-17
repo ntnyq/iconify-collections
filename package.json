@@ -2,7 +2,7 @@
   "name": "iconify-collections",
   "type": "module",
   "private": true,
-  "packageManager": "pnpm@10.6.2",
+  "packageManager": "pnpm@10.6.3",
   "license": "MIT",
   "scripts": {
     "build": "run-s generate format:icons-json",
@@ -33,7 +33,7 @@
     "tsx": "^4.19.3",
     "typescript": "^5.8.2",
     "unocss": "^66.0.0",
-    "vite": "^6.2.1",
+    "vite": "^6.2.2",
     "vitest": "^3.0.8"
   },
   "nano-staged": {
