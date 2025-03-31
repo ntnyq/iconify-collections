@@ -2,7 +2,7 @@
   "name": "iconify-collections",
   "type": "module",
   "private": true,
-  "packageManager": "pnpm@10.6.5",
+  "packageManager": "pnpm@10.7.0",
   "license": "MIT",
   "scripts": {
     "build": "run-s generate format:icons-json",
@@ -23,7 +23,7 @@
     "@iconify/tools": "^4.1.2",
     "@ntnyq/eslint-config": "^3.12.3",
     "@ntnyq/prettier-config": "^2.0.0",
-    "@types/node": "^22.13.13",
+    "@types/node": "^22.13.14",
     "@vitest/coverage-v8": "^3.0.9",
     "eslint": "^9.23.0",
     "husky": "^9.1.7",
