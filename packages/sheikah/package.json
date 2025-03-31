@@ -2,7 +2,6 @@
   "name": "icon-collection-sheikah",
   "version": "0.0.1",
   "description": "Sheikah icon set in Iconify JSON format",
-  "iconSetVersion": "0.0.10",
   "license": "MIT",
   "homepage": "https://github.com/ntnyq/iconify-collections",
   "bugs": "https://github.com/ntnyq/iconify-collections/issues",
@@ -12,18 +11,19 @@
       "import": "./index.mjs",
       "require": "./index.cjs"
     },
+    "./*": "./*",
     "./icons.json": "./icons.json",
-    "./info.json": "./info.json",
-    "./*": "./*"
+    "./info.json": "./info.json"
   },
   "main": "./index.cjs",
   "module": "./index.mjs",
   "types": "./index.d.ts",
+  "dependencies": {
+    "@iconify/types": "*"
+  },
   "iconSet": {
     "icons": "icons.json",
     "info": "info.json"
   },
-  "dependencies": {
-    "@iconify/types": "*"
-  }
+  "iconSetVersion": "0.0.10"
 }

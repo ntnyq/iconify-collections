@@ -1,4 +1,9 @@
-import type { IconifyChars, IconifyInfo, IconifyJSON, IconifyMetaData } from '@iconify/types'
+import type {
+  IconifyChars,
+  IconifyInfo,
+  IconifyJSON,
+  IconifyMetaData,
+} from '@iconify/types'
 
 export { IconifyChars, IconifyInfo, IconifyJSON, IconifyMetaData }
 

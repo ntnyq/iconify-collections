@@ -21,14 +21,14 @@ async function generateIconCollection(prefix: string) {
 
     // Clean up and optimise icons
     try {
-      await cleanupSVG(svg)
-      await parseColors(svg, {
+      cleanupSVG(svg)
+      parseColors(svg, {
         defaultColor: 'currentColor',
         callback: (_attr, colorStr, color) => {
           return !color || isEmptyColor(color) ? colorStr : 'currentColor'
         },
       })
-      await runSVGO(svg)
+      runSVGO(svg)
     } catch (err) {
       // Invalid icon
       console.error(`Error parsing ${name}:`, err)
@@ -48,10 +48,7 @@ async function generateIconCollection(prefix: string) {
 }
 
 try {
-  await Promise.all([
-    //
-    generateIconCollection('sheikah'),
-  ])
+  await Promise.all([generateIconCollection('sheikah')])
 } catch (err) {
   console.log(err)
 }
