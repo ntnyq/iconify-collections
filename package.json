@@ -22,7 +22,7 @@
     "@iconify/tools": "^4.1.2",
     "@ntnyq/eslint-config": "^4.0.3",
     "@ntnyq/prettier-config": "^2.0.0",
-    "@types/node": "^22.14.0",
+    "@types/node": "^22.14.1",
     "eslint": "^9.24.0",
     "husky": "^9.1.7",
     "nano-staged": "^0.8.0",
@@ -30,8 +30,8 @@
     "prettier": "3.5.3",
     "tsx": "^4.19.3",
     "typescript": "^5.8.3",
-    "unocss": "^66.1.0-beta.10",
-    "vite": "^6.2.5",
+    "unocss": "^66.1.0-beta.11",
+    "vite": "^6.2.6",
     "vitest": "^3.1.1"
   },
   "nano-staged": {
