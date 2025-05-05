@@ -2,7 +2,7 @@
   "name": "iconify-collections",
   "type": "module",
   "private": true,
-  "packageManager": "pnpm@10.8.1",
+  "packageManager": "pnpm@10.10.0",
   "license": "MIT",
   "scripts": {
     "build": "run-s generate format:icons-json",
@@ -20,19 +20,19 @@
     "@changesets/changelog-github": "^0.5.1",
     "@changesets/cli": "^2.29.2",
     "@iconify/tools": "^4.1.2",
-    "@ntnyq/eslint-config": "^4.0.4",
+    "@ntnyq/eslint-config": "^4.1.0",
     "@ntnyq/prettier-config": "^2.0.0",
-    "@types/node": "^22.14.1",
-    "eslint": "^9.25.0",
+    "@types/node": "^22.15.3",
+    "eslint": "^9.26.0",
     "husky": "^9.1.7",
     "nano-staged": "^0.8.0",
     "npm-run-all2": "^7.0.2",
     "prettier": "3.5.3",
-    "tsx": "^4.19.3",
+    "tsx": "^4.19.4",
     "typescript": "^5.8.3",
-    "unocss": "^66.1.0-beta.12",
-    "vite": "^6.3.2",
-    "vitest": "^3.1.1"
+    "unocss": "^66.1.0",
+    "vite": "^6.3.4",
+    "vitest": "^3.1.2"
   },
   "nano-staged": {
     "*.{js,ts,mjs,cjs,md,svg,yml,yaml,json}": "eslint --fix"
