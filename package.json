@@ -20,10 +20,10 @@
     "@changesets/changelog-github": "^0.5.1",
     "@changesets/cli": "^2.29.5",
     "@iconify/tools": "^4.1.2",
-    "@ntnyq/eslint-config": "^4.3.0",
+    "@ntnyq/eslint-config": "^5.2.0",
     "@ntnyq/prettier-config": "^3.0.1",
-    "@types/node": "^22.16.5",
-    "eslint": "^9.31.0",
+    "@types/node": "^24.1.0",
+    "eslint": "^9.32.0",
     "husky": "^9.1.7",
     "nano-staged": "^0.8.0",
     "npm-run-all2": "^8.0.4",
@@ -31,7 +31,7 @@
     "tsx": "^4.20.3",
     "typescript": "^5.8.3",
     "unocss": "^66.3.3",
-    "vite": "^7.0.5",
+    "vite": "^7.0.6",
     "vitest": "^3.2.4"
   },
   "nano-staged": {

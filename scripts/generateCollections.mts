@@ -10,7 +10,9 @@ async function generateIconCollection(prefix: string) {
 
   // Validate, clean up, fix palette and optimise
   await iconSet.forEach(async (name, type) => {
-    if (type !== 'icon') return
+    if (type !== 'icon') {
+      return
+    }
 
     const svg = iconSet.toSVG(name)
     if (!svg) {
