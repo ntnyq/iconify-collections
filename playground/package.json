@@ -10,6 +10,6 @@
   "devDependencies": {
     "icon-collection-sheikah": "workspace:*",
     "unocss": "^66.5.1",
-    "vite": "^7.1.5"
+    "vite": "^7.1.6"
   }
 }
