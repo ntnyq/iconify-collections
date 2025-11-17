@@ -2,7 +2,7 @@
   "name": "iconify-collections",
   "type": "module",
   "private": true,
-  "packageManager": "pnpm@10.20.0",
+  "packageManager": "pnpm@10.21.0",
   "license": "MIT",
   "scripts": {
     "build": "run-s generate format:icons-json",
@@ -23,16 +23,16 @@
     "@ntnyq/eslint-config": "^5.7.0",
     "@ntnyq/prettier-config": "^3.0.1",
     "@types/node": "^24.10.0",
-    "eslint": "^9.39.0",
+    "eslint": "^9.39.1",
     "husky": "^9.1.7",
     "nano-staged": "^0.8.0",
     "npm-run-all2": "^8.0.4",
     "prettier": "3.6.2",
     "tsx": "^4.20.6",
     "typescript": "^5.9.3",
-    "unocss": "^66.5.4",
-    "vite": "^7.1.12",
-    "vitest": "^4.0.6"
+    "unocss": "^66.5.5",
+    "vite": "^7.2.2",
+    "vitest": "^4.0.8"
   },
   "nano-staged": {
     "*.{js,ts,mjs,cjs,md,svg,yml,yaml,json}": "eslint --fix"
