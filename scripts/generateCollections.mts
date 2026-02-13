@@ -26,7 +26,7 @@ async function generateIconCollection(prefix: string) {
       cleanupSVG(svg)
       parseColors(svg, {
         defaultColor: 'currentColor',
-        callback: (_attr, colorStr, color) => {
+        callback(_attr, colorStr, color) {
           return !color || isEmptyColor(color) ? colorStr : 'currentColor'
         },
       })
@@ -50,7 +50,8 @@ async function generateIconCollection(prefix: string) {
 }
 
 try {
-  await Promise.all([generateIconCollection('sheikah')])
+  // oxlint-disable-next-line unicorn/no-single-promise-in-promise-methods
+  await generateIconCollection('sheikah')
 } catch (err) {
   console.log(err)
 }

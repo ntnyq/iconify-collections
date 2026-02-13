@@ -1,8 +1,9 @@
 {
   "compilerOptions": {
     "target": "ESNext",
-    "lib": ["DOM", "ES2020"],
+    "lib": ["DOM", "ES2023"],
     "module": "ESNext",
+    "types": ["node"],
     "moduleResolution": "Bundler",
     "resolveJsonModule": true,
     "erasableSyntaxOnly": true,

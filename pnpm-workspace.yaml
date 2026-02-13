@@ -2,9 +2,10 @@ packages:
   - packages/*
   - playground
 
-overrides:
-  esbuild: ^0.28.0
+allowBuilds:
+  esbuild: true
+  unrs-resolver: true
 
-onlyBuiltDependencies:
-  - esbuild
-  - unrs-resolver
+minimumReleaseAge: 0
+packageManagerStrict: false
+ignoreWorkspaceRootCheck: true
