@@ -1,0 +1,87 @@
+{
+  "$schema": "./node_modules/oxlint/configuration_schema.json",
+  "plugins": [
+    "eslint",
+    // "import",
+    // "jsdoc",
+    // "node",
+    // "promise",
+    "oxc",
+    "typescript",
+    // "unicorn",
+  ],
+  "categories": {
+    "correctness": "error",
+    "suspicious": "warn",
+    "pedantic": "warn",
+    "perf": "warn",
+    "style": "warn",
+    "restriction": "warn",
+  },
+  "ignorePatterns": [
+    "**/dist/**",
+    "**/node_modules/**",
+    "**/tests/fixtures/**",
+  ],
+  "rules": {
+    "no-ternary": "off",
+    "sort-keys": "off",
+    "sort-imports": "off",
+    "require-await": "off",
+    "oxc/no-async-await": "off",
+    "typescript/no-require-imports": "off",
+    "typescript/explicit-function-return-type": "off",
+    "max-statements": ["warn", 100],
+    "func-style": ["warn", "declaration", { "allowArrowFunctions": true }],
+    "id-length": ["warn", { "min": 2, "exceptions": ["i", "T", "_", "$"] }],
+  },
+  "overrides": [
+    {
+      "files": ["scripts/**/*.{js,ts,mts}"],
+      "rules": {
+        "no-console": "off",
+      },
+    },
+    {
+      "files": ["*.config.ts"],
+      "rules": {
+        "new-cap": "off",
+      },
+    },
+    {
+      "files": ["*.d.ts"],
+      "rules": {
+        // to extend existing modules, import/export must not appear in declaration files at top level
+        "import/unambiguous": "off",
+        // we need `export {}` to convert a file to a module
+        "unicorn/require-module-specifiers": "off",
+      },
+    },
+    {
+      "files": ["*.{spec,test}.{js,ts,tsx}", "*.{spec,test}-d.{ts,tsx}"],
+      "plugins": ["vitest"],
+      "rules": {
+        "id-length": "off",
+        "max-classes-per-file": "off",
+        "max-lines-per-function": "off",
+        "max-lines": "off",
+        "max-statements": "off",
+        "no-empty-function": "off",
+        "no-undefined": "off",
+        "import/no-nodejs-modules": "off",
+        "typescript/ban-ts-comment": "off",
+        "typescript/no-non-null-assertion": "off",
+        "typescript/prefer-ts-expect-error": "off",
+        "typescript/require-array-sort-compare": "off",
+        "vitest/require-test-timeout": "off",
+        "vitest/prefer-expect-assertions": "off",
+        "vitest/require-top-level-describe": "off",
+        "vitest/no-importing-vitest-globals": "off",
+        "vitest/consistent-test-it": [
+          "error",
+          { "fn": "it", "withinDescribe": "it" },
+        ],
+      },
+    },
+  ],
+}

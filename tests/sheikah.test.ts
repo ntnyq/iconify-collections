@@ -49,9 +49,7 @@ it('render', async () => {
       presetIcons({
         collections: {
           sheikah: () =>
-            import('../packages/sheikah/icons.json').then(
-              i => i.default as any,
-            ),
+            import('../packages/sheikah/icons.json').then(i => i.default),
         },
       }),
     ],
