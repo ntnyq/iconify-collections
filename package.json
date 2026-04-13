@@ -20,7 +20,7 @@
     "@changesets/changelog-github": "^0.6.0",
     "@changesets/cli": "^2.30.0",
     "@iconify/tools": "^5.0.11",
-    "@ntnyq/eslint-config": "^5.9.0",
+    "@ntnyq/eslint-config": "^6.0.0",
     "@ntnyq/prettier-config": "^3.0.1",
     "@types/node": "^24.12.2",
     "eslint": "^9.39.4",
