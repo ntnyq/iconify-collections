@@ -22,7 +22,7 @@
     "@iconify/tools": "^5.0.11",
     "@ntnyq/eslint-config": "^5.9.0",
     "@ntnyq/prettier-config": "^3.0.1",
-    "@types/node": "^24.12.0",
+    "@types/node": "^24.12.2",
     "eslint": "^9.39.4",
     "husky": "^9.1.7",
     "nano-staged": "^0.9.0",
