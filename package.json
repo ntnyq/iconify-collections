@@ -2,7 +2,7 @@
   "name": "iconify-collections",
   "type": "module",
   "private": true,
-  "packageManager": "pnpm@10.33.4",
+  "packageManager": "pnpm@11.5.0",
   "license": "MIT",
   "scripts": {
     "build": "run-s generate format:icons-json",
