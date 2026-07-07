@@ -9,7 +9,7 @@
   },
   "devDependencies": {
     "icon-collection-sheikah": "workspace:*",
-    "unocss": "^66.7.2",
+    "unocss": "^66.7.4",
     "vite": "^8.1.0"
   }
 }
